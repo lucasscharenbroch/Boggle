@@ -1,0 +1,28 @@
+td.cell {
+	font-size: 70px;
+	padding: 10px 30px 10px 30px; /* top, right, bottom, left */
+}
+
+div.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+div.centerleft {
+	grid-column: 1;
+}
+
+div.centerright {
+	grid-column: 2;
+}
+
+div.bottom {
+	grid-column: 1 / 2;
+	height: 100px;
+	padding-top: 100px;
+}
+
+#timer {
+	font-size: 150px;
+	margin-top: 0px;
+}
